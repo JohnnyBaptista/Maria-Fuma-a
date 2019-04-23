@@ -1,41 +1,89 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    
     <!--MATERIALIZE-->
-    <link rel="stylesheet" href="src/assets/css/materialize.min.css">
+    <link ref="stylesheet" href="src/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
     
     <title>Maria Fumaça</title>
     
 </head>
 
 <body>
-    
-    <div class="carousel carousel-slider">
-        <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/800/400/food/1"></a>
-        <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/800/400/food/2"></a>
-        <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/800/400/food/3"></a>
-        <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/800/400/food/4"></a>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col s12">
+                <div class="carousel carousel-slider">
+                    <a class="carousel-item" href="#one!"><img src="src/assets/img/bloggif_5cb62f0a0f498.jpeg"></a>
+                    <a class="carousel-item" href="#three!"><img src="src/assets/img/hookah4.jpg"></a>
+                    <a class="carousel-item" href="#two!"><img src="src/assets/img/hookah3.jpg"></a>
+                    <a class="carousel-item" href="#four!"><img src="src/assets/img/hookah1.jpg"></a>
+                </div>
+            </div>
+        </div>
     </div>
+    
+    <div class="container-fluid">
+        <div class="row">            
+            <div class="col s4">
+                <div class="center promo promo-example">
+                    <i class="large material-icons" style="color:crimson">cake</i>
+                    <h1>FODASE</h1>
+                    <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptatum sed excepturi cupiditate mollitia, voluptatem unde necessitatibus fugit inventore perspiciatis tempore distinctio, perferendis deleniti eius. Dolore quaerat iure obcaecati dolorum!</h5>
+                </div>
+            </div>
+            <div class="col s4">
+                <div class="center promo promo-example">
+                    <i class="large material-icons" style="color:crimson" >local_dining</i>
+                    <h1>MERDA</h1>
+                    <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo porro sint voluptas possimus saepe, fuga dicta hic reprehenderit iste harum ab assumenda consequuntur quibusdam laborum eligendi dignissimos maxime reiciendis in?</h5>
+                </div>
+            </div>
+            <div class="col s4">
+                <div class="center promo promo-example">
+                    <i class="large material-icons" style="color:crimson">accessible</i>
+                    <h1>CU</h1>
+                    <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque voluptates omnis labore quas distinctio ea quasi iusto maxime perspiciatis sint, sapiente soluta aliquid, totam rem eum deserunt aperiam repellendus mollitia?</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .carousel-item > img{
+            width: 1600px;
+            height: 600px;
+        }
+    </style>
     
     <script
 			  src="https://code.jquery.com/jquery-3.3.1.min.js"
 			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-			  crossorigin="anonymous"></script>
+			  crossorigin="anonymous">
+    </script>                
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
     <script>
             $(document).ready(function(){
                 $('.carousel.carousel-slider').carousel({
-                    fullWidth: true
+                    fullWidth: true,
+                    indicators: true,
+                    duration: 500
                 });
+
+                setInterval(() => {
+                $('.carousel').carousel("next");   
+                }, 5000);
             });
     </script>
-    
 
-        
 </body>
 </html>
