@@ -1,0 +1,42 @@
+
+
+@charset "UTF-8";
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    height: 100px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 0px;
+}
+
+
+
+.sociais{
+    margin: 20px;
+}
+.tudo{
+    background: url("../img/hookah.png") no-repeat;
+    background-size: 37%;
+    background-position-x: 100%;
+    background-position-y: 0%;
+}
+
+ #teste .btn{
+    background-color: black;
+    width: 300px;
+}
+
+
