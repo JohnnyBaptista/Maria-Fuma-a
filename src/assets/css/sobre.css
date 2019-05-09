@@ -7,13 +7,14 @@
 }
 #sobre{
     text-align: center;
+    color: #fff;
+    position: relative;
+    top: 30px;
+    bottom: 20px;
+    height: 250px;
 }
 
-p{
-    text-align: justify;
-    margin: 30px;
-    color: #fff;
-}
+
 
 h3{
     margin: 30px;
@@ -24,14 +25,12 @@ h3{
     background-color: black;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 30px;
     position: relative;
-
+    height: 600px;
+    
 }
 
-.waves-effect.waves-white .waves-ripple {
-     background-color: rgb(255, 255, 255);
-   }
    
 #btn{
     outline: none;
@@ -49,14 +48,10 @@ h3{
 
 #form{
     margin: 30px;
+ 
 }
 
 
-.titulo{
-    text-align: left;
-    margin: 30px;
-    color: #fff;
-}
 
 
   .mapa {
@@ -90,12 +85,25 @@ iframe{
 #ende{
     position: relative;
     top: 60px;
+    text-align: justify;
+    margin: 30px;
+    color: #fff;
 }
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background: url("../img/bg-img.jpeg")
+    background: url("../img/bg-img.jpeg");
+    
+}
+.input-field input[type=text]:focus + label {
+    color: #fff;
+  }
+.input-field input, .input-field textarea{
+    color: #fff;
 }
 
-
-
+.conteudoContato{
+    position: relative;
+    top: 35px;
+    font-size: 17px;
+}
