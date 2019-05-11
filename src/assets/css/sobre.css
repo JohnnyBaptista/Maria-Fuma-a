@@ -1,6 +1,7 @@
 
 
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600|Stylish');
 
 
 #sobre{
@@ -86,9 +87,9 @@ iframe{
 }
 
 body{
-    font-family: 'Montserrat', sans-serif;
+    
     background: url("../img/bg-img.jpeg") ;
-  
+    background-attachment: fixed;
     
 }
 .input-field input[type=text]:focus + label {
@@ -107,6 +108,14 @@ body{
 #map{
     margin-bottom: 0px !important;
     background-color: black;
+}
+
+.titulo{
+    font-family: 'Stylish', sans-serif;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
 }
 
 
