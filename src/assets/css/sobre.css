@@ -2,16 +2,13 @@
 
 @charset "UTF-8";
 
-*{
-    
-}
+
 #sobre{
     text-align: center;
     color: #fff;
     position: relative;
-    top: 30px;
-    bottom: 20px;
-    height: 250px;
+    top: 50px;
+    height: 370px;
 }
 
 
@@ -27,7 +24,7 @@ h3{
     text-align: center;
     padding: 30px;
     position: relative;
-    height: 600px;
+    height: 550px auto;
     
 }
 
@@ -38,7 +35,8 @@ h3{
     color: #fff;
     border: 1px solid white;
     border-radius: 50px;
-    padding: 0 75px;	
+    padding: 0 75px;
+    margin-bottom: 20px;	
 }
 
 #btn:hover{
@@ -52,12 +50,9 @@ h3{
 }
 
 
-
-
   .mapa {
     position: relative;
     top: -20px;
-    bottom: -70px;
   }
 
   input:-webkit-autofill,
@@ -92,7 +87,8 @@ iframe{
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background: url("../img/bg-img.jpeg");
+    background: url("../img/bg-img.jpeg") ;
+  
     
 }
 .input-field input[type=text]:focus + label {
@@ -107,3 +103,12 @@ body{
     top: 35px;
     font-size: 17px;
 }
+
+#map{
+    margin-bottom: 0px !important;
+    background-color: black;
+}
+
+
+
+
