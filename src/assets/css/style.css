@@ -1,0 +1,57 @@
+.menu{
+    background-color: black;
+    font-family: 'Comfortaa', cursive;
+    position: fixed;
+    padding: 10px 20px;
+    
+}
+
+
+.imagem{
+  height: 120px;
+  width: 120px;
+  position: center;
+  top: 10px;
+}
+  
+
+  .bg{
+    background: url('../img/imagemfundo.jpg');
+	  width: 100%;
+    height: 1000px;
+  }
+
+  .menuAnimation
+  
+  {
+      
+  padding: 0px;
+	background-color: rgba(7,4,4,.8);
+	box-shadow: 2px 2px 2px #000000;
+  transition: 1.5s ease all;
+       
+}
+.nav-title{
+
+  font-size: 20pt !important;
+}
+
+
+.item_menu{
+    position: relative;
+    
+     
+}
+.item_menu:hover{
+    background-color: #292929;
+   
+
+}
+
+.ImagemAnimation{
+
+  height: -300px;
+  width: -200px;
+  
+  
+  }
