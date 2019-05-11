@@ -8,8 +8,8 @@
     text-align: center;
     color: #fff;
     position: relative;
-    top: 50px;
-    height: 370px;
+    top: 150px;
+    height: 500px;
 }
 
 
@@ -110,12 +110,16 @@ body{
     background-color: black;
 }
 
-.titulo{
+.tit{
     font-family: 'Stylish', sans-serif;
 }
 
 p{
     font-family: 'Open Sans', sans-serif;
+}
+
+.menu{
+    z-index: 1000;
 }
 
 
