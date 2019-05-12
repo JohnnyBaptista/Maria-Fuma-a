@@ -1,4 +1,20 @@
-.carousel-item > img{
+
+.texto {
+    text-align:justify;
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'ZCOOL KuaiLe', cursive;*/
+}
+
+.icone {
+    color: black;
+}
+
+.carousel-item >img{
     width: 1600px;
     height: 600px;
 }
+
+.pad{
+    padding: 100px !important;
+}
+
